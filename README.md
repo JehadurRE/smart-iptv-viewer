@@ -57,10 +57,6 @@ The app features a fully responsive design that adapts to different screen sizes
 - **Flexible Grids**: Dynamic column counts based on available space
 - **Orientation Support**: Automatically adjusts layout for portrait and landscape modes
 
-## Screenshots
-
-(Screenshots would be here in a real README)
-
 ## Installation
 
 ### Prerequisites
