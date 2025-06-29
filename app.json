@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "Smart IPTV Viewer",
+    "slug": "smart-iptv-viewer",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/images/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "icu.jehadurre.smart-iptv-viewer"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "icu.jehadurre.smart-iptv-viewer",
+      "softwareKeyboardLayoutMode": "pan",
+      "permissions": ["INTERNET"]
+    },
+    "androidTV": {
+      "banner": "./assets/images/tv_banner.png"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
